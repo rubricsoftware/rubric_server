@@ -13,7 +13,7 @@ Accounting
 
 Example Scenario
 -----------------------------
-A Rubric Client (RC) wants to store a Rubroic Object (RO) for one year so they contratc with a Rubric (R) for that service.
+A Rubric Client (RC) wants to store a Rubric Object (RO) for one year so they contract with a Rubric (R) for that service.
 To make math easy we'll say its a large file and it will cost 365 Rubricoin (RBC) to store the RO for one year.
 
 ### Transaction Process 
@@ -37,14 +37,14 @@ The RSN needs to ensure that the Rubric is still storing the RO before recording
 
 **Scenario 2 - Rubric transfers contract**
 
-If the Rubric is unwilling to continue storing the RO they must transfer the obejct and the remaining eRBC to a Rubric willing to fulfill the remainder of the contract.
+If the Rubric is unwilling to continue storing the RO they must transfer the object and the remaining eRBC to a Rubric willing to fulfill the remainder of the contract.
 
-The creator of the RO may have added an additional encumbrance that their signature is required for any early spends of the transaction where the eRBC goes to anyone other than the original  Rubric. This would allow them to ensure thatb they beleived the new Rubric would be able to provide all the required services.  
+The creator of the RO may have added an additional encumbrance that their signature is required for any early spends of the transaction where the eRBC goes to anyone other than the original  Rubric. This would allow them to ensure that they beleived the new Rubric would be able to provide all the required services.  
 
 **Scenario 3 - Rubric deletes the file**
 
-If the RSN enforces that the correct RO is provided when spending any Rubricoin that had been encumbered then a Rubric would lose their RBC when they deleted the file.
+Since the RSN required the related RO when spending any encumbered Rubricoin a rubric would lose their RBC when they deleted the file.
 
-**Scenario 4 - The Rubric Client request early termination**
+**Scenario 4 - The Rubric Client requests early termination**
 
 The RC may request that the RO storage contract is canceled early. Barring any encumbrances to the contrary the Rubric sends the eRBC to the original address of the RC.  The default for encumbrances is that they are removed when sent back to the originating address.
