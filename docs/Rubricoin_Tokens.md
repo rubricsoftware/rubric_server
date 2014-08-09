@@ -45,6 +45,6 @@ The creator of the RO may have added an additional encumbrance that their signat
 
 If the RSN enforces that the correct RO is provided when spending any Rubricoin that had been encumbered then a Rubric would lose their RBC when they deleted the file.
 
-**Scenario 4 - The Rubric Client request early termination **
+**Scenario 4 - The Rubric Client request early termination**
 
 The RC may request that the RO storage contract is canceled early. Barring any encumbrances to the contrary the Rubric sends the eRBC to the original address of the RC.  The default for encumbrances is that they are removed when sent back to the originating address.
